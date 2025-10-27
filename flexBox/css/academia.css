@@ -1,0 +1,32 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: azure;
+
+}
+
+.h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(176, 227, 254);
+
+}
+.align-end{
+    align-items: flex-start;
+    justify-content: center;
+}

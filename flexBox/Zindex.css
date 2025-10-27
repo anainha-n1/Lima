@@ -1,0 +1,29 @@
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: rgb(255, 238, 0);
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+}
+
+.box3 {
+    background-color: rgb(255, 95, 196);
+    left: 100px;
+    top: 100px;
+}

@@ -1,0 +1,52 @@
+.interacoes{
+    margin-top: 2rem;
+}
+
+.lista{
+    padding: 0.75;
+    background-color: rgb(255, 255, 109);
+    color: black;
+    font-weight: 500;
+}
+
+.lista li:nth-child(1){
+    background-color: rgba(214, 213, 203, 0.4);
+    font-size: 18pt;
+    color: yellow;
+}
+
+butao{
+    background-color: greenyellow;
+    border: none;
+    padding: 0.75;
+    border-radius: 999px;
+    font-weight: 900;
+    cursor:pointer ;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.botao:hover{
+    background-color: black;
+    color: azure;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.35);
+    transform: scaleY(-2xp);
+}
+.texto{
+    width: 80%;
+}
+.texto::first-letter{
+    font-size: 2,5rem;
+    color: blue;
+    font-weight: bold;
+}
+.texto::first-letter
+{
+    text-transform: uppercase;
+}
+
+::selection{
+    background-color: blue;
+    color: bisque;
+}
