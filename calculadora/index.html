@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/calculadora.js" defer></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <h1>calculadora</h1>
+        <form action="" class="card">
+            <label for="">nm 1</label>
+            <input type="number" id="num1">
+            <label for="">nm 2</label>
+            <input type="number" id="num2">
+           <div style="display: flex;">
+             <button type="button" onclick="Somar()">+</button>
+            <button type="button" onclick="subitrair()">-</button>
+            <button type="button" onclick="mult()">x</button>
+            <button type="button" onclick="dividir()">/</button>
+            <button type="button" onclick="Par()">Par ou impar</button>
+            <button type="button"onclick="limpar()">limpar</button>
+        </div>
+            <p id="result"></p>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
